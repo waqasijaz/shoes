@@ -51,6 +51,22 @@ header .navbar a{
     color: #000;
     margin: 0 2rem;
 }
+header .navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: baseline;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    /* padding: 0.5rem 1rem; */
+    margin: 0.5rem 15rem;
+    flex-direction: row;
+    align-content: stretch;
+    margin-top: 36px;
+}
 header .navbar a:hover{
     color: orangered;
 }
@@ -61,6 +77,9 @@ header .icons a{
 }
 header .icons a:hover{
     color: orangered;
+}
+.logo_wrapper {
+    float: left;
 }
 #menu-bar{
     font-size: 2rem;
