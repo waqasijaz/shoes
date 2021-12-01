@@ -597,7 +597,7 @@
                 data-toggle="modal"
                 data-target="#exampleModalCenter">Quick Preview</a>
               </div>
-              <div class="content">
+              <div class="content" id="${shoe.category}">
                 <img src="${shoe.photo}">
                 <h3 maxlength = "4">${shoe.name}</h3>
  
@@ -616,7 +616,7 @@
           <img
             class="card-img"
             src=${shoe.photo}
-            alt="Vans"
+            alt="Vans" style="width=60%;"
           />
           <div class="card-img-overlay d-flex justify-content-end">
             <a href="#" class="card-link text-danger like">

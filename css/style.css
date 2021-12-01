@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'iran_sans_bold';
     src: url('../Fonts/iran_sans_bold.woff') format('woff');
 }
@@ -11,9 +11,10 @@
 @font-face {
     font-family: 'iran_sans_medi';
     src: url('../Fonts/iran_sans_medi.woff') format('woff');
-}
+} */
 *{
-    font-family:iran_sans_light;
+    font-family: 'Outfit', sans-serif;
+    /* font-family:iran_sans_light; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,7 +36,8 @@ header{
     right: 0;
     z-index: 1000;
     background: #fff;
-    padding: 2rem 9%;
+    /* padding: 2rem 9%; */
+    padding: 0rem 9%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -189,6 +191,14 @@ section{
 }
 .home #next{
     right: 3rem;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 60% !important;
+    align-items: center;
+    height: 330px;
+    align-self: center;
 }
 /* end home  */
 .heading{
